@@ -1,3 +1,29 @@
 .App {
   text-align: center;
 }
+
+img {
+  width: 400px;
+}
+
+.hobbies {
+  width: 240px;
+}
+
+.profilePicture {
+  width: 200px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  font-size: 20px;
+}
+
+a:focus {
+  background-color: black;
+  color: white;
+}

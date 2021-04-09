@@ -1,0 +1,31 @@
+export default function Hobbies() {
+  return (
+    <div>
+      <h2>Hobbies</h2>
+      <section>
+        <h3>Travel</h3>
+        <img
+          className="hobbies"
+          alt="travelPic"
+          src="https://pix10.agoda.net/hotelImages/68310/-1/459412f7142ccf9578e5fd075aee86ee.jpg?s=1024x768"
+        ></img>
+      </section>
+      <section>
+        <h3>Sport</h3>
+        <img
+          className="hobbies"
+          alt="sportPic"
+          src="https://amazonasatual.com.br/wp-content/uploads/2018/10/Cruzeiro-campe%C3%A3o.jpeg"
+        ></img>
+      </section>
+      <section>
+        <h3>Music</h3>
+        <img
+          className="hobbies"
+          alt="hobbiesPic"
+          src="https://catracalivre.com.br/wp-content/uploads/2018/12/sepultura-sepultura.png"
+        ></img>
+      </section>
+    </div>
+  );
+}
